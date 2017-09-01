@@ -38,7 +38,7 @@ end
 
 def binary_multiple_of_4? s
   # YOUR CODE HERE
-  return (s =~ /^[0-9]+$/) && ((s.to_i % 4) == 0)
+  return (s =~ /^[0-1]+$/) && ((s.to_i % 4) == 0)
 end
 
 # Part 3
